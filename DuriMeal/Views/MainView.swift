@@ -17,7 +17,7 @@ struct MainView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack(alignment: .leading, spacing: 18) {
                 HeaderButton(vm: vm)
-                WeeklyButton()
+//                WeeklyButton()
                 subPlace()
                 ScrollView {
                     ForEach(vm.times, id: \.self) { time in
